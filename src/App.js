@@ -1,29 +1,22 @@
 import './App.css';
-import List from './components/List';
-import Names from './components/Names';
-import AboutPage from './pages/AboutPage/AboutPage';
-import AboutUs from './pages/AboutUs/AboutUs';
-
-
+// import {Link, NavLink} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import FuncUsersPage from "./pages/funcUsersPage/FuncUsersPage";
+import AboutUs from "./pages/AboutUs/AboutUs";
+import MainPage from "./pages/mainPage/MainPage";
+import PostsPage from "./pages/usersPage/UsersPage";
 
 function App() {
-  
-  
-  const names = ["Dastan", "Ali", "Amir"]
-  
-  const info = {
-    title: "I am TITLE",
-    body: "Lorem ipsum bla bla bla"
-  }
-  
   return (
     <div className="App">
-      <h1>Мое приложение</h1>
-      <AboutUs title= "Заголовок"/>
-      <AboutPage title={info.title} body = {info.body}/>
-      <List todo={names} />
-      <Names todo= {names}/>
-
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MainPage/>}/>
+        <Route path='/user' element={<FuncUsersPage/>}/>
+        <Route path='/about' element={<AboutUs/>}/>
+        <Route path='/posts' element={<PostsPage/>}/>
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function AboutUs(props) {
+function AboutUs() {
     return (
         <div>
-            <h3>{props.title}</h3>
+            <h3>About Us</h3>
         </div>
     );
 }

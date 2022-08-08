@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f041de6f-a182-4379-8fdb-883333880900" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/funcUsersPage/FuncUsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/funcUsersPage/FuncUsersPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/usersPage/UsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/usersPage/UsersPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,11 +56,22 @@
       <option name="presentableId" value="Default" />
       <updated>1659521938239</updated>
       <workItem from="1659521939775" duration="160000" />
-      <workItem from="1659944081707" duration="906000" />
+      <workItem from="1659944081707" duration="1789000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

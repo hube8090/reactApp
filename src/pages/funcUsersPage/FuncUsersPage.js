@@ -1,5 +1,6 @@
 import React from "react";
 import {useState} from "react";
+import Header from "../../components/header/Header";
 
 function FunctionUsersPage() {
     
@@ -14,7 +15,8 @@ function FunctionUsersPage() {
     }
     
     return (
-        <div> 
+        <div>
+            <Header/>
             <h1>{count}</h1>
             <button onClick={increment}>+</button>
             <button onClick={decrement}>-</button>

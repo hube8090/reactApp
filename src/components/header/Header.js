@@ -17,7 +17,6 @@ function Header() {
                 <li>
                     <NavLink to='/posts'>posts</NavLink>
                 </li>
-
         </div>
     );
 }
